@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions (= 1.9.2)
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
+    - CocoaLumberjack/Core
+  - RaptureXML (1.0.1)
+  - Reachability (3.2)
+  - Realm (0.96.2):
+    - Realm/Headers (= 0.96.2)
+  - Realm/Headers (0.96.2)
+  - SVGKit (1.2.0):
+    - CocoaLumberjack
+  - UIImage+SVG (0.1):
+    - RaptureXML (~> 1.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - CocoaLumberjack (~> 1.9)
+  - Reachability (~> 3.1)
+  - Realm
+  - SVGKit (~> 1.2.0)
+  - UIImage+SVG (~> 0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
+  RaptureXML: b5c33c04c1a4adfd8ad0d5463329a31820596e82
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: 3ce8448151c571e90b85002d984d7f93f54fc8a3
+  SVGKit: 267d38d3db13ca62dc52f09b4738cb440f83c4c6
+  UIImage+SVG: 23a2edbb60b0f4c083068963086e309ebd8be592
+
+COCOAPODS: 0.39.0
